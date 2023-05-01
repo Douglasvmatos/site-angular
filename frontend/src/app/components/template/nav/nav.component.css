@@ -1,0 +1,53 @@
+.container {
+    margin: 0;
+    height: 85vh;
+    background-color: #000
+}
+
+.sidenav {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: linear-gradient(10deg, blue, red);
+    border: 1px solid #FFF;
+    color: #fff;
+    position: absolute;
+}
+
+.sidenav a {
+    color: #F00;
+    display: flex;
+    justify: center
+}
+
+.sidenav i {
+    padding-right: 10px
+}
+
+.content {
+    padding: 16px;
+    background-color: #000
+
+}
+
+#links {
+    display: flex;
+    height: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0.5rem
+}
+
+#links:hover {
+    color: #FFF;
+    background-color: #000;
+    height: 1.5rem;
+    radius: 0.5rem;
+    border-radius: 100px;
+}

@@ -1,0 +1,23 @@
+<mat-toolbar class="header mat-elevation-z4">
+    <span>
+        <a routerLink="/">
+            <img class="logo" src="assets/img/logo.png" alt="logo">
+        </a>
+    </span>
+    <span class="title-group">
+        <a routerLink="{{ routeUrl }}">
+        {{ title }}
+        </a>
+    </span>
+    <span *ngIf="noUserLogged()" >
+        <a routerLink="/login">
+            <strong>Login</strong>
+        </a>
+    </span>
+    <span *ngIf="userLogged()">
+        <a routerLink="/">
+            <strong (click)="signout()">Logged</strong>
+        </a>
+    </span>
+</mat-toolbar>
+<div class="line"></div>

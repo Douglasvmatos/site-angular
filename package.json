@@ -1,0 +1,17 @@
+{
+  "name": "openfabric",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18 <19"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildback": "cd backend && npm i",
+    "buildfront": "cd frontend && npm run build",
+    "start": "cd backend && node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

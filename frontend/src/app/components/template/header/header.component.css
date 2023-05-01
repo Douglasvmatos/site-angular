@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 	#000;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FFF
+}
+
+.header .logo {
+    max-height: 32px
+}
+
+.title-group {
+    padding-left: 25px;
+}
+
+.header .title-group i {
+    padding-right: 25px
+}
+
+.title,  strong {
+    color: #FFF
+}
+
+.line {
+    color: #FFF;
+    width: 150wh;
+    border: 1px solid #FFF;
+    margin-bottom: 10px
+}
